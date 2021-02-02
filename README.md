@@ -1,9 +1,5 @@
 # ACM Research Coding Challenge (Spring 2021)
 
-## No Collaboration Policy
-
-**You may not collaborate with anyone on this challenge.** You _are_ allowed to use Internet documentation. If you _do_ use existing code (either from Github, Stack Overflow, or other sources), **please cite your sources in the README**.
-
 ## Submission Procedure
 
 Please follow the below instructions on how to submit your answers.
@@ -22,3 +18,13 @@ Genome analysis is the identification of genomic features such as gene expressio
 **You may use any programming language you feel most comfortable. We recommend Python because it is the easiest to implement. You're allowed to use any library you want to implement this**, just document which ones you used in this README file. Try to complete this as soon as possible.
 
 Regardless if you can or cannot answer the question, provide a short explanation of how you got your solution or how you think it can be solved in your README.md file. However, we highly recommend giving the challenge a try, you just might learn something new!
+
+## The Thought process 
+
+-> The start to my thought process was provided in the instructions, usually the first step is to figure out the languages and technologies to use, (Whenever my brain hears graphics, it goes straight to JavaScript lol), but with the direction provided, I looked at possible libraries with python.
+
+-> A quick search resulted in BioPython and GenomeDiagram. With a little indication of where I was heading, I reached out to a friend in Bio-chemistry major to learn more about genome mapping.
+
+-> I read through BioPython and GenomeDiagram's documentation, and I got to know that GenomeDiagram was now a part of the BioPython (Resource used - https://biopython.org/wiki/Getting_Started)
+
+-> Now with the parsing of the data handeled, I needed to work on GenomeDiagram to present the data, and fortunately Documentation for GenomeDiagram came with the necessary instructiions for another library - ReportLab, as well. (https://biopython-tutorial.readthedocs.io/en/latest/notebooks/17%20-%20Graphics%20including%20GenomeDiagram.html)
